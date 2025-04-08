@@ -1,0 +1,6 @@
+[build]
+  command = "npm install -g expo-cli && expo build:web"
+  publish = "web-build"
+
+[build.environment]
+  NODE_VERSION = "18"
